@@ -1,3 +1,41 @@
+/* цвет основного текста #212121 */
+/* вторичный цвет текста #757575 */
+/* третий цвет текста color: rgba(255, 255, 255, 0.6) */
+/* акцент #2196F3 */
+/* белый #FFFFFF */
+/* вторичный цвет фона #E5E5E5 */
+
 body {
-  background-color: tomato;
+  background-color: #ffffff;
+  color: #212121;
+}
+.list {
+  list-style: none;
+}
+
+/* Logo */
+.logo {
+  color: #2196f3;
+}
+
+/* Site nav */
+.site-nav .link {
+}
+
+.site-nav .link:hover,
+.site-nav .link:focus {
+  color: #2196f3;
+}
+
+.contacts .link:hover,
+.contacts .link:focus {
+  color: #2196f3;
+}
+
+/* Hero */
+
+/* Section */
+
+.section-title {
+  color: tomato;
 }
