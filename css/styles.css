@@ -4,6 +4,7 @@
 /* акцент #2196F3 */
 /* белый #FFFFFF */
 /* вторичный цвет фона #E5E5E5 */
+/* цвет контактов в футере rgba(255, 255, 255, 0.6) */
 
 :root {
   --primary-text-color: #212121;
@@ -13,54 +14,73 @@
   --primary-white-color: #ffffff;
   --secondary-bg-color: #e5e5e5;
   --the-third-bg-color: #f5f4fa;
+  --contacts-footer-color: rgba(255, 255, 255, 0.6);
 }
 
 body {
-  background-color: var(--primary-white-color);
   color: var(--primary-text-color);
+  background-color: var(--primary-white-color);
 }
 .list {
   list-style: none;
 }
 
-/* Header */
-
 /* Logo */
-.header-logo {
+.logo {
   color: var(--accent-color);
 }
 
-/* Site nav */
-.header-list .link {
-}
-
-.header-list .header-link:hover,
-.header-list .header-link:focus {
+/* Header */
+.header-link:hover,
+.header-link:focus {
   color: var(--accent-color);
 }
 
-.header-contacts .header-mail:hover,
-.header-contacts .header-mail:focus {
+.header-contacts {
+  color: var(--primary-text-color);
+}
+
+.header-mail:hover,
+.header-mail:focus,
+.header-tel:hover,
+.header-tel:focus {
+  color: var(--accent-color);
+}
+
+.logo:focus {
   color: var(--accent-color);
 }
 
 /* Hero */
-
-/* Section */
-
-/* .header .header-nav .header-logo .header-list .header-item*/
-/* .header-contacts .header-link .header-tel .header-mail */
-/* .feature .feature-title .feature-list .feature-sub */
-/* .about .about-title .about-list*/
-/* .team .team-title .team-list .team-sub*/
-/* .footer .address .footer-tel .footer-mail */
-
-/*  */
-
-.feature-title {
-  color: var(--primary-text-color);
+.button {
+  color: var(--primary-white-color);
+  background-color: var(--accent-color);
 }
 
-.feature-list .title {
-  color: var(--primary-text-color);
+/* Feature */
+.feature-text,
+.team-text {
+  color: var(--title-text-color);
+}
+
+/* Footer */
+.footer {
+  background-color: #2f303a;
+}
+.footer-text {
+  color: var(--primary-white-color);
+
+  width: 1600px;
+  height: 252px;
+  left: 0px;
+  top: 2097px;
+}
+
+.footer-contacts {
+  color: var(--contacts-footer-color);
+}
+
+.footer-contacts:hover,
+.footer-contacts:focus {
+  color: var(--accent-color);
 }
