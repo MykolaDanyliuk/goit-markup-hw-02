@@ -23,22 +23,24 @@ body {
   list-style: none;
 }
 
+/* Header */
+
 /* Logo */
-.logo {
+.header-logo {
   color: var(--accent-color);
 }
 
 /* Site nav */
-.site-nav .link {
+.header-list .link {
 }
 
-.site-nav .link:hover,
-.site-nav .link:focus {
+.header-list .header-link:hover,
+.header-list .header-link:focus {
   color: var(--accent-color);
 }
 
-.contacts .link:hover,
-.contacts .link:focus {
+.header-contacts .header-mail:hover,
+.header-contacts .header-mail:focus {
   color: var(--accent-color);
 }
 
@@ -46,10 +48,19 @@ body {
 
 /* Section */
 
-.section-title {
+/* .header .header-nav .header-logo .header-list .header-item*/
+/* .header-contacts .header-link .header-tel .header-mail */
+/* .feature .feature-title .feature-list .feature-sub */
+/* .about .about-title .about-list*/
+/* .team .team-title .team-list .team-sub*/
+/* .footer .address .footer-tel .footer-mail */
+
+/*  */
+
+.feature-title {
   color: var(--primary-text-color);
 }
 
-.feature .title {
+.feature-list .title {
   color: var(--primary-text-color);
 }
