@@ -1,6 +1,5 @@
 /* цвет основного текста #212121 */
 /* вторичный цвет текста #757575 */
-/* третий цвет текста color: rgba(255, 255, 255, 0.6) */
 /* акцент #2196F3 */
 /* белый #FFFFFF */
 /* вторичный цвет фона #E5E5E5 */
@@ -9,7 +8,6 @@
 :root {
   --primary-text-color: #212121;
   --title-text-color: #757575;
-  --the-third-color: rgba(255, 255, 255, 0.6);
   --accent-color: #2196f3;
   --primary-white-color: #ffffff;
   --secondary-bg-color: #e5e5e5;
@@ -34,6 +32,14 @@ body {
 
 .logo:focus {
   color: var(--accent-color);
+}
+
+.header-nav .logo {
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 31px;
 }
 
 /* Header */
