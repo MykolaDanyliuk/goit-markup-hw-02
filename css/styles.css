@@ -2,7 +2,8 @@
 /* вторичный цвет текста #757575 */
 /* акцент #2196F3 */
 /* белый #FFFFFF */
-/* вторичный цвет фона #E5E5E5 */
+/* вторичный цвет фона #E5E5E5 *
+/* фон наша команда #f5f4fa */
 /* цвет фона в футере #2F303A */
 /* цвет контактов в футере rgba(255, 255, 255, 0.6) */
 
@@ -12,7 +13,7 @@
   --accent-color: #2196f3;
   --primary-white-color: #ffffff;
   --secondary-bg-color: #e5e5e5;
-  --the-third-bg-color: #f5f4fa;
+  --team-bg-color: #f5f4fa;
   --contacts-footer-color: rgba(255, 255, 255, 0.6);
   --footer-bg-color: #2f303a;
 }
@@ -52,11 +53,7 @@ body {
   color: var(--primary-white-color);
 }
 
-.header-nav .logo {
-}
-
 /* Header */
-
 .header-link {
   color: var(--primary-text-color);
   text-decoration: none;
@@ -66,6 +63,11 @@ body {
   font-size: 14px;
   line-height: 1.4;
   letter-spacing: 0.02em;
+}
+
+.link-current {
+  color: var(--accent-color);
+  text-decoration: none;
 }
 
 .header-link:hover,
@@ -112,6 +114,8 @@ body {
   color: var(--primary-white-color);
   background-color: var(--accent-color);
 
+  font-family: inherit;
+
   font-weight: 700;
   font-size: 16px;
   line-height: 1.9;
@@ -121,7 +125,16 @@ body {
   letter-spacing: 0.06em;
 }
 
+.hero-btn:hover,
+.hero-btn:focus {
+  color: #188ce8;
+}
+
 /* Feature */
+.feature {
+  background-color: var(--secondary-bg-color);
+}
+
 .feature-text,
 .team-text {
   color: var(--title-text-color);
@@ -135,6 +148,10 @@ body {
 }
 
 /* About */
+.about {
+  background-color: var(--secondary-bg-color);
+}
+
 .about-title,
 .team-title {
   font-weight: 700;
@@ -143,7 +160,11 @@ body {
   text-align: center;
 }
 
-.team-item {
+/* Team */
+.team {
+  background-color: var(--team-bg-color);
+}
+.team-person {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.9;
@@ -161,8 +182,7 @@ body {
 /* Footer */
 .footer {
   background-color: var(--footer-bg-color);
-  
-  font-style: normal
+
   width: 1600px;
   height: 252px;
   left: 0px;
@@ -188,10 +208,10 @@ body {
   color: var(--contacts-footer-color);
   text-decoration: none;
 
-    font-style: normal;
-    font-weight: 400;
-    font-size: 14px;
-    line-height: 1.7;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.7;
 }
 
 .footer-contacts:hover,
