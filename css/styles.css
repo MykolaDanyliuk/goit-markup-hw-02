@@ -13,7 +13,7 @@
   --accent-color: #2196f3;
   --primary-white-color: #ffffff;
   --secondary-bg-color: #e5e5e5;
-  --team-bg-color: #f5f4fa;
+  --team-button-bg-color: #f5f4fa;
   --contacts-footer-color: rgba(255, 255, 255, 0.6);
   --footer-bg-color: #2f303a;
 }
@@ -27,6 +27,10 @@ body {
 }
 .list {
   list-style: none;
+}
+
+.pointer {
+  cursor: pointer;
 }
 
 /* Logo */
@@ -115,7 +119,6 @@ body {
   background-color: var(--accent-color);
 
   font-family: inherit;
-
   font-weight: 700;
   font-size: 16px;
   line-height: 1.9;
@@ -224,4 +227,38 @@ body {
 /* Works */
 .works-link {
   text-decoration: none;
+}
+
+.work-title {
+  color: var(--primary-text-color);
+
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+  text-decoration: none;
+}
+
+.work-desc {
+  color: var(--title-text-color);
+
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.88;
+}
+
+.projects-btn {
+  color: var(--primary-text-color);
+  background-color: var(--team-button-bg-color);
+
+  font-family: inherit;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.6;
+  text-align: center;
+}
+
+.projects-btn:hover,
+.projects-btn:focus {
+  color: #2196f3;
 }
