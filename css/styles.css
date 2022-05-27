@@ -218,3 +218,10 @@ body {
 .footer-contacts:focus {
   color: var(--accent-color);
 }
+
+/* Our Projects */
+
+/* Works */
+.works-link {
+  text-decoration: none;
+}
