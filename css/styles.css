@@ -33,12 +33,12 @@ body {
 /* Logo */
 .logo {
   color: var(--accent-color);
-  text-decoration: none;
-
   font-family: Raleway, sans-serif;
+
   font-weight: 700;
   font-size: 26px;
   line-height: 1.2;
+  text-decoration: none;
 }
 
 .logo:focus {
@@ -57,13 +57,13 @@ body {
 /* Header */
 .header-link {
   color: var(--primary-text-color);
-  text-decoration: none;
 
   font-style: normal;
   font-weight: 500;
   font-size: 14px;
   line-height: 1.4;
   letter-spacing: 0.02em;
+  text-decoration: none;
 }
 
 .header-link:hover,
@@ -73,12 +73,12 @@ body {
 
 .header-contacts {
   color: var(--title-text-color);
-  text-decoration: none;
 
   font-weight: 500;
   font-size: 14px;
   line-height: 1.4;
   letter-spacing: 0.02em;
+  text-decoration: none;
 }
 
 .header-contacts:hover,
@@ -180,12 +180,12 @@ body {
 
 .footer-address {
   color: var(--primary-white-color);
-  text-decoration: none;
 
   font-style: normal;
   font-weight: 400;
   font-size: 14px;
   line-height: 1.7;
+  text-decoration: none;
 }
 
 .footer-address:hover,
@@ -195,12 +195,12 @@ body {
 
 .footer-contacts {
   color: var(--contacts-footer-color);
-  text-decoration: none;
 
   font-style: normal;
   font-weight: 400;
   font-size: 14px;
   line-height: 1.7;
+  text-decoration: none;
 }
 
 .footer-contacts:hover,
